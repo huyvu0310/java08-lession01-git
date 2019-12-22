@@ -1,6 +1,6 @@
 todo-app
 
-VERSION: 2.0-SNAPSHOT
+VERSION: 2.0
 
 
 
