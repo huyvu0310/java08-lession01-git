@@ -1,3 +1,7 @@
-private int sub(int x, int y){
-	return x-y;
+private int sub(int a, int b) throws Exception(){
+	
+	if(a-b>Interger.MAX){
+		throw new Exception();	
+	}
+return a-b;
 }

@@ -1,3 +1,7 @@
-private int sum(int a, int b){
-	return a+b;
+private int sum(int a, int b) throws Exception(){
+	
+	if(a+b>Interger.MAX){
+		throw new Exception();	
+	}
+return a+b;
 }
