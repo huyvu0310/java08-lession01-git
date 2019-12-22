@@ -1,6 +1,6 @@
 private int mul(int a,int b) {
 	if(a*b>Integer.Max){
-		throw new RuntimeException();
+		throw new RuntimeException("Result over than max of Integer");
 	}	
 	return a*b;
 }
